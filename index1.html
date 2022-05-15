@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .slide_slick .black {
+            border: 2px solid black;
+        }
+
+        .slide_slick .pink {
+            border: 2px solid pink;
+        }
+
+        .slide_slick .item img {
+            /* width: 300px; */
+        }
+
+        .slide_slick.slick-slider button.slick-arrow {
+            background-color: aqua;
+            border: none;
+            content: ">";
+        }
+
+        .control-c {
+            width: 50px;
+        }
+
+        .item {
+            /* position: relative; */
+        }
+
+        .item p {
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            margin: auto;
+            background-color: aqua;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <ul>
+                <li><a href="./index.html"><img class="logo"
+                            src="https://visanuocngoai.vn/wp-content/uploads/2021/09/la-co-phap-mau-gi-6.jpg"
+                            alt=""></a></li>
+                <li>Học tại Pháp</li>
+                <li>Sống tại Pháp</li>
+                <li>Về chúng tôi</li>
+            </ul>
+        </div>
+        <div class="banner_img">
+            <img class src="" alt="">
+
+        </div>
+    </header>
+
+    <div class="slide_slick">
+        <div class="item">
+            <img src="https://viet-phap.vn/wp-content/uploads/2020/04/Nhung-hinh-anh-nuoc-phap-dep-ma-ban-nen-toi-khi-den-voi-phap.jpg"
+                alt="">
+            <p> Khám phá nước Pháp</p>
+            
+        </div>
+        <div class="item">
+            <img src="https://i0.wp.com/dichauau.net/wp-content/uploads/2017/01/nguoi_phap.jpg?fit=678%2C381&ssl=1" alt="">
+            <p>Du lịch</p>
+        </div>
+        <div class="item">
+            <img src="https://www.vietnam.campusfrance.org/sites/pays/files/vietnam/styles/tablette_visuel_principal_page/public/ET3_voyager.jpeg?itok=wFfB1i-F" alt="">
+            <p>Học tập</p>
+        </div>
+        <div class="item">
+            <img src="https://vtv1.mediacdn.vn/Uploaded/nguyetmai/2014_08_05/Colmar-France_1_050814.jpg"
+    
+                alt="">
+                
+                <p>Nơi nghỉ dưỡng</p>
+        </div>
+        <div class="item">
+            <img src="https://elead.com.vn/wp-content/uploads/2020/04/cau-noi-hay-ve-tinh-ban.jpg" alt="">
+            <p>Quan hệ</p>
+        </div>
+    </div>
+    <h1>CAMPUS FRANCE ĐỒNG HÀNH CÙNG BẠN
+    </h1>
+    <h2>
+        Tìm kiếm chương trình đào tạo
+    </h2>
+    <h2>
+        Học bổng du học Pháp
+    </h2>
+    <h2>
+        Thủ tục xin visa du học
+    </h2>
+  <style>
+      h1{
+
+        
+           
+           color: red;
+            font-size: 50px;
+            font-weight: bold;
+      }
+      h2{
+          color: blue;
+    }
+  </style>
+    
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slide_slick').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                // autoplay: true,
+                autoplaySpeed: 1000,
+                fade: true,
+                prevArrow: "<img class='a-left control-c prev slick-prev' src='https://thumbs.dreamstime.com/z/right-arrow-next-button-vector-icon-modern-design-style-web-site-mobile-app-170757599.jpg'>",
+                nextArrow: "<img class='a-right control-c next slick-next' src='https://thumbs.dreamstime.com/z/right-arrow-next-button-vector-icon-modern-design-style-web-site-mobile-app-170757599.jpg'>"
+            });
+        })
+    </script>
+    <script src="./1112.js"></script>
+</body>
+
+</html>

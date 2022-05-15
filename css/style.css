@@ -1,0 +1,82 @@
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .item_file {
+            background-color: aliceblue;
+        }
+
+        header {
+            background: #004c99
+        }
+
+        .banner_img {
+            background-color: aliceblue;
+        }
+
+        header ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+        }
+
+        .logo {
+            width: 80px;
+        }
+
+        header ul li {
+            padding: 15px 20px;
+            color: white;
+        }
+
+        .banner_img img {
+            position: absolute;
+        }
+
+        .banner_img .img_Left {
+            top: 326px;
+            left: 109px;
+        }
+
+        .banner_img .img_Right {
+            top: 326px;
+            left: 909px;
+        }
+
+        .banner_img .img_Big {
+            background-color: aliceblue;
+        }
+
+        .top_banner {
+            background: url("https://www.vietnam.campusfrance.org/sites/pays/files/vietnam/styles/desktop_paragraph_parallax/public/ET3_voyagermtstmichel.jpg?itok=4llF3ho5");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: 0 100%;
+            min-height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+h3{
+  color: red;
+  margin:0;
+  padding:0;
+}
+.top_banner1 {
+            background: url("https://www.vietnam.campusfrance.org/sites/pays/files/vietnam/styles/desktop_paragraph_parallax/public/ET3_voyagertrain.jpg?itok=NDdVksGU");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: 0 100%;
+            min-height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+
+
